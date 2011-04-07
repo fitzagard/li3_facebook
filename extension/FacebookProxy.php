@@ -262,10 +262,10 @@ class FacebookProxy extends \lithium\core\StaticObject {
 				throw new Exception('Configuration: `secret` should be set');
 			}
 			if (!empty($config['cookie'])){
-				throw new Exception('Configuration: `cookie` not yet supported');
+				//throw new Exception('Configuration: `cookie` not yet supported');
 			}
 			if (!empty($config['domain'])){
-				throw new Exception('Configuration: `domain` not yet supported');
+				//throw new Exception('Configuration: `domain` not yet supported');
 			}
 			if (!empty($config['fileUpload'])){
 				throw new Exception('Configuration: `fileUpload` not yet supported');
